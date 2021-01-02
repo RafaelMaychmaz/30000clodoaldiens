@@ -45,6 +45,14 @@
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- 30000CLODOALDIENS image and description overview in facebook -->
+  {% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/img/header-bg.jpg" />
+  {% endif %}
+  <meta property="og:description" content="{{ page.subtitle }}" />
+
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
   <style>
