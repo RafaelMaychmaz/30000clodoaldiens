@@ -2,7 +2,7 @@ header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services" # "#{section}" or "URL/page link"
+    buttonlink: "#services"
 
 services:
     title: "Services"
@@ -63,8 +63,6 @@ about:
 
 clients:
     section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
     list:
       - title: "envato"
         url: https://github.com/raviriley/agency-jekyll-theme
@@ -130,7 +128,7 @@ footer:
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/raviriley
         icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"

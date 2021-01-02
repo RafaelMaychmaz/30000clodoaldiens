@@ -1,5 +1,7 @@
 _site
 .sass-cache
-.jekyll-metadata
 .jekyll-cache
+.jekyll-metadata
+vendor
 Gemfile.lock
+workspace.code-workspace
