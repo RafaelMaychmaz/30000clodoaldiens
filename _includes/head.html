@@ -51,7 +51,10 @@
   {% else %}
     <meta property="og:image" content="{{ site.url }}/img/header-bg.jpg" />
   {% endif %}
-  <meta property="og:description" content="{{ page.subtitle }}" />
+
+  {% if page.subtitle %}
+    <meta property="og:description" content="{{ page.subtitle }}" />
+  {% endif %}
 
   <!-- Page container change top padding when nav shrinks -->
   {% if page.layout == "page" %}
