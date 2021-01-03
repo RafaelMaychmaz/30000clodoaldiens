@@ -18,9 +18,6 @@ services:
       - title: "Participation citoyenne"
         desc: "Veille sur la participation des clodoaldiens aux élections. Encourager les clodoaldiens à s'exprimer dans le cadre de débats publics."
         icon: fas fa-comments
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
 
 portfolio:
     title: "Portfolio"
@@ -46,7 +43,7 @@ timeline:
         alt: 
         align: right
       - title: "Création de contenu"
-        year: "Printemps/Automne 2019"
+        year: "Printemps à Automne 2019"
         desc: "Nous sommes allés à la rencontre d'acteurs locaux pour réaliser des contenus parlant de leurs initiatives."
         image: assets/img/timeline/2019_acteurs-locaux.jpg
         alt: image alt text
