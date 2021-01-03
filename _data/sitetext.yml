@@ -1,64 +1,67 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Bienvenue ! Blog dédié à notre ville et aux clodoaldiens
+    text: Saint-Cloud, un art de vivre
+    button: Découvrir la ville
     buttonlink: "#services"
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Thèmes"
+    text: "Notre média est principalement orienté sur les sujets liés aux thématiques ci-dessous."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
+      - title: "Acteurs Locaux"
+        desc: "Des interviews pour découvrir celles et ceux qui portent de belles **initiatives** à deux pas de chez vous grâces à **des petites articles et des vidéos**."
+        icon: fas fa-desktop #find more at https://fontawesome.com/icons
+      - title: "Lien Social"
+        desc: "Mettre en place des opportunités, des évènements, pour qu'habitants et acteurs locaux puissent se rencontrer dans un cadre convivial"
+        icon: fas fa-user-friends
+      - title: "Participation citoyenne"
+        desc: "Veille sur la participation des clodoaldiens aux élections. Encourager les clodoaldiens à s'exprimer dans le cadre de débats publics."
+        icon: fas fa-comments
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
 portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Nos différents projets s'afficheront **bientôt** ici."
     section: portfolio
     
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
+    title: "Timeline" 
+    text: "Voici les grandes étapes qui ont marqué notre histoire."
     section: timeline
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "Une Association est Née"
+        year: "Automne 2018"
+        desc: "Moment fort où nous avons décidés de nous lancer dans l'aventure en créant l'association <b>30000 Clodoaldiens</b>!"
+        image: assets/img/timeline/2018-09-30_creation_association.jpg
         alt: 
         align: left
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Grand Débat National"
+        year: "Hiver 2019"
+        desc: "Suite au mouvement des <b>Gilets Jaunes</b> nous avons organisés 2 réunions publiques pour 'grand-débattre' à Saint-Cloud dans un cadre non-partisant!"
+        image: assets/img/timeline/2019_GDN.jpg
         alt: 
         align: right
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Création de contenu"
+        year: "Printemps/Automne 2019"
+        desc: "Nous sommes allés à la rencontre d'acteurs locaux pour réaliser des contenus parlant de leurs initiatives."
+        image: assets/img/timeline/2019_acteurs-locaux.jpg
         alt: image alt text
         #align: #default is left       
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Opération #MerciANosCommerçants</b>"
+        year: "2020"
+        desc: "Durant l'épidémie du <b>Coronavirus</b> nous avons tourné des vidéos pour soutenir les commerçants de Saint-Cloud."
+        image: assets/img/timeline/2020_merci_a_nos_commercants.jpg
         alt: 
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Rejoignez<br>notre<br>Histoire!"
 
 about:
-    title: "About Us"
-    text: "our story"
+    title: "A Propos"
+    text: "WARNING : TEXTE QUI N APPARAIT NUL PART APPAREMENT"
     section: about
 
 clients:
@@ -78,14 +81,14 @@ clients:
         logo: assets/img/clients/creative-market.jpg
     
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "L'ÉQUIPE"
+    text: "Voici les membres du conseil d'administration de notre association."
+    subtext: Nous sommes toujours à la recherche de nouveaux **profils** pour contribuer à nos côtés afin d'enrichir ce blog à destination de toutes et tous :)
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/1.jpg
+      - name: "Rafaël"
+        role: "Président de l'association"
+        image: assets/img/team/rafael.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -93,9 +96,9 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+      - name: "Marie-Pierre"
+        role: "Trésorière"
+        image: assets/img/team/marie-pierre.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -103,9 +106,9 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/3.jpg
+      - name: "Laurence"
+        role: "Secrétaire"
+        image: assets/img/team/laurence.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -113,25 +116,35 @@ team:
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-          
+      - name: "Alexandra"
+        role: "Administratrice"
+        image: assets/img/team/alexandra.png
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+       
 contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Nous Contacter"
+    text: "Utilisez <a href=https://facebook.com/30000clodoaldiens>Facebook</a> ou le formulaire ci-dessous"
     section: contact
     
 footer:
-    legal: "Privacy Policy"
+    legal: "Données personnelles (RGPD)"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
-      - url: https://facebook.com
+      #- url: https://twitter.com
+      #  icon: "fab fa-twitter"  
+      - url: https://facebook.com/30000clodoaldiens
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      #- url: https://linkedin.com
+      #  icon: "fab fa-linkedin-in"
+      #- url: https://github.com/RafaelMaychmaz
+      #  icon: "fab fa-github"
+      #- url: https://instagram.com/30000clodoaldiens
+      #  icon: "fab fa-instagram"
 
 
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}

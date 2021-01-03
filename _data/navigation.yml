@@ -1,18 +1,18 @@
 nav:
-  - title: "Services"
+  - title: "Thèmes"
     section: services
 
   - title: "Portfolio"
     section: portfolio
     
-  - title: "About"
+  - title: "A Propos"
     section: timeline
 
-  - title: "Team"
+  - title: "Équipe"
     section: team
 
   - title: "Contact"
     section: contact
 
-  - title: "External"
+  - title: "Mairie"
     url: https://www.saintcloud.fr
