@@ -9,7 +9,7 @@ categories: acteurs-locaux coronavirus
 
 # Lancement de l'opération "Merci A Nos Commercants"
 
-<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png" alt="image manquante" width="500"></div>
+<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png" alt="image manquante" width="490"></div>
 
 Bonjour à toutes et à tous,
 
@@ -26,7 +26,7 @@ Cette démarche est bénévole et sans copyright. Chacun de vous peut participer
 Bonne semaine,<br>
 L'association 30000 Clodoaldiens
 
-<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width="500"></div>
+<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width="490"></div>
 
 # Vidéos de commerçants ouverts
 
