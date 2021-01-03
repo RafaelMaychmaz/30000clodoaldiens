@@ -33,7 +33,7 @@ Cette démarche est bénévole et sans copyright. Chacun de vous peut participer
 Bonne semaine,<br>
 L'association 30000 Clodoaldiens
 
-<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width="390"></div>
+<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width="500"></div>
 
 # Vidéos de commerçants ouverts
 
@@ -50,7 +50,7 @@ Livraison possible !
 Tel : 01 46 02 88 95 / [Site web](https://www.noirblanclait.com) / [Instagram](https://www.instagram.com/noirblanclait) / [Facebook](https://www.facebook.com/pages/Noir-Blanc-Lait/285056861518626)
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/ACIi-8GZWjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ACIi-8GZWjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🥖Boulangerie d'Odile (Coteaux & Bords de Seine)
