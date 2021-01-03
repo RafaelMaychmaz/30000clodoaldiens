@@ -2,7 +2,7 @@
 layout: post
 title:  "Merci à nos Commerçants"
 subtitle: "Quelques vidéos durant le 1er confinement pour remercier les commerçants de rester ouvert. Merci et Bravo à eux !"
-header-img: /assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png
+header-img: assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png
 date:   2020-03-28 19:00:00 +0100
 categories: acteurs-locaux coronavirus
 ---
