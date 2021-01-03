@@ -51,7 +51,7 @@ timeline:
         image: assets/img/timeline/2019_acteurs-locaux.jpg
         alt: image alt text
         #align: #default is left       
-      - title: "Opération #MerciANosCommerçants</b>"
+      - title: "Opération #MerciANos Commerçants</b>"
         year: "2020"
         desc: "Durant l'épidémie du <b>Coronavirus</b> nous avons tourné des vidéos pour soutenir les commerçants de Saint-Cloud."
         image: assets/img/timeline/2020_merci_a_nos_commercants.jpg
