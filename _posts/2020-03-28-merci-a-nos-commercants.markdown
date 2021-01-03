@@ -10,7 +10,9 @@ categories: acteurs-locaux coronavirus
 <!--
 YouTube envoie une iframe width="560" height="315" ce qui est adapté à un écran PC mais pas à un ecran mobile.
 
-pour le mobile on va prendre une width de 380, et donc un height de 213.75
+pour le mobile on va prendre une width de 380, et donc un height de 214: conclusion, c'est bien (sur note8 en tout cas)
+
+Il faut tester aussi device-width
 -->
 # Lancement de l'opération "Merci A Nos Commercants"
 
