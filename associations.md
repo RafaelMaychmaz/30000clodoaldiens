@@ -187,5 +187,7 @@ width={{ site.data.navigation.youtube_width }}
 height={{ site.data.navigation.youtube_height }}
 src="https://www.youtube.com/embed/i9PelfpWmQI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![cover](/assets/acteurs_locaux/30000_clodoaldiens/cover.jpg)
+
+<img src="/assets/acteurs_locaux/30000_clodoaldiens/cover.jpg" alt="cover" width={{ site.data.navigation.youtube_width }}>
+
 
