@@ -19,7 +19,10 @@ Lieu des apéros : Lieu des apéros : 58 rue des Tennerolles, 92210 Saint-Cloud
 
 **Activités suspendues du fait de la situation sanitaire.**
 
-
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/xa8d9ddRiV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # La Passerelle de Saint-Cloud
 
@@ -30,13 +33,19 @@ EN BREF
 - Tel : 01 46 02 00 56
 - Email : passerelle.st.cloud@gmail.com
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FpJ_j4f_j8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/FpJ_j4f_j8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Le Cercle des Artistes et des Philosophes (association loi 1901)
 
 Une minute pour découvrir l'association:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6Ur-KAcwZ_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/6Ur-KAcwZ_0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 CONTACT : Email : [lecap2017@orange.fr](mailto:lecap2017@orange.fr)
 
@@ -53,7 +62,10 @@ EN BREF
 - Pour être informé des prochains évènements à Saint-Cloud, contactez Patrick Pasquier
 - Email : patrickpasquier33@neuf.fr
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7_EeP1I5nWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/7_EeP1I5nWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -66,7 +78,10 @@ EN BREF
 - Adhésion & Dons sur la page Hello Asso de Saint-Cloud Sans Plastique
 - Email : saintcloudsansplastique@gmail.com
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tB9qmL3Yfwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/tB9qmL3Yfwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -79,7 +94,10 @@ EN BREF
 - Tel : 06 61 71 30 40
 - Rue des Tennerolles, 92210 Saint-Cloud
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0JEBoyHiOM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/0JEBoyHiOM4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -92,7 +110,10 @@ EN BREF
 - Tel : 01 47 71 11 02
 - Email : [uas-saintcloud@orange.fr](mailto:uas-saintcloud@orange.fr)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P4ydlqBqcbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/P4ydlqBqcbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
@@ -105,13 +126,19 @@ EN BREF
 - Tel : 01 71 17 60 04
 - Email : uastennis@sfr.fr
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/giq5rUtX3Pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/giq5rUtX3Pg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
 # Winning Girls
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UonppNgzmyE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/UonppNgzmyE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 EN BREF
 * www.winninggirlsproject.com
@@ -121,7 +148,10 @@ EN BREF
 
 Ci-dessous, une vidéo de 2 minutes pour en savoir plus.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XZ4dlgH9U5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/XZ4dlgH9U5M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 L’ interview du 5 octobre 2018 : Laurence Moncourrier Présidente de WINNING GIRLS
 
@@ -152,8 +182,10 @@ EN BREF
 - Valorisation des acteurs locaux
 - Participation citoyen
 
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/i9PelfpWmQI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![cover](/assets/acteurs_locaux/30000_clodoaldiens/cover.jpg)
 
-
-**PERSONAL INFORMATION WE COLLECT**

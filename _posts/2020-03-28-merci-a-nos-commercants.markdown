@@ -17,7 +17,7 @@ Il faut tester aussi device-width
 -->
 # Lancement de l'opération "Merci A Nos Commercants"
 
-<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png" alt="image manquante" width="390"></div>
+<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/merci-a-nos-comercants-banner.png" alt="image manquante" width={{ site.data.navigation.youtube_width }}></div>
 
 Bonjour à toutes et à tous,
 
@@ -34,7 +34,7 @@ Cette démarche est bénévole et sans copyright. Chacun de vous peut participer
 Bonne semaine,<br>
 L'association 30000 Clodoaldiens
 
-<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width="500"></div>
+<div style="text-align: center"><img src="/assets/images/2020_merci-a-nos-commercants/soutenons-nos-commercants-1024x1024.png" alt="image manquante" width={{ site.data.navigation.youtube_width }}></div>
 
 # Vidéos de commerçants ouverts
 
@@ -51,7 +51,10 @@ Livraison possible !
 Tel : 01 46 02 88 95 / [Site web](https://www.noirblanclait.com) / [Instagram](https://www.instagram.com/noirblanclait) / [Facebook](https://www.facebook.com/pages/Noir-Blanc-Lait/285056861518626)
 
 <div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ACIi-8GZWjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/ACIi-8GZWjY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🥖Boulangerie d'Odile (Coteaux & Bords de Seine)
@@ -65,7 +68,10 @@ Ouvert de 7h30 à 14h et de 16h30 à 19h
 Retrouvez la boulangerie d'Odile sur [Facebook](https://www.facebook.com/Boulangerie-?__xts__%5B0%5D=68.ARDRkxcawSDrfr0B-gMEJuuvNsp8xZt33PsVZIH1usV1D5A6EeCnRyd2XSaEc1hx3EUQRqVFB938z8mfWMN0bu3KhFacawSEvqKh_anO-D46poCT4oyFV4sXbzW6Iki48olNoDDEMhJVe43TL0qkAg7Iq8o2lKNnSMloLMCl5Cix2n2I8p7zQSNHCiO06rRkMpSZN2Op3YECLC8-iDCqsFbJtAlCgv-p-_5mSBjTJ9Vd3rR6oSNu9htS4KMOMlAGxDx7atW1mHhA_31vpyS5FgVinZmaEL1O6EMsf6ubxLyVZk01xLj3PjoHdn4tc0Xw23jRUONf4MRrB1FjzilTbhRwrA&__tn__=-UK-R) et [Instagram](https://www.instagram.com/la_boulange?fbclid=IwAR2LhCb51pOBQSED8Qis9rOCtKUCi3eOg-cNzUQqu4cadxZ2DTAJrTzXB4E)
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/I-XNsBPAq-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/I-XNsBPAq-Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🍅🥦Superette du Val d'or
@@ -77,7 +83,10 @@ Sur place ou en livraison (sans frais à partir de 50€, chèque ou CB).
 Tel : 01 47 71 01 19
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/A780QMN9LdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/A780QMN9LdA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🥖Le Fournil de Saint Cloud (Val d'or)
@@ -90,7 +99,10 @@ Ouvert :
 Tel : 01 46 02 86 06
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/pdZMHQz0eTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/pdZMHQz0eTk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🍷Un saut a la cave (Centre / Village)
@@ -105,7 +117,10 @@ Il est également possible d'avoir des paniers bios de fruits et légumes, ainsi
 [Facebook](https://www.facebook.com/Un-Saut-a-La-Cave-158522454194139/)
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/_GZiF84cBDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/_GZiF84cBDE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🥖 O Pain de Sucre (Coteaux & Bords de Seine)
@@ -116,7 +131,10 @@ Ouvert :
 * le dimanche de 7h30 à 13h30
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/Umj1v2RuqB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/Umj1v2RuqB4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## 🥖L' Atelier des pain (Montretout / Coutureau)
@@ -129,6 +147,9 @@ Tel : 01 47 71 21 30
 [Site web](www.atelierdespains.com) / [Facebook](https://www.facebook.com/atelierdespains/) / [Instagram](https://www.instagram.com/atelierdespains/)
 
 <div style="text-align: center">
-<iframe width="380" height="214" src="https://www.youtube.com/embed/ocjM0ghht-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+width={{ site.data.navigation.youtube_width }}
+height={{ site.data.navigation.youtube_height }}
+src="https://www.youtube.com/embed/ocjM0ghht-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
