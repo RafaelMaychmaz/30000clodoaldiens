@@ -80,7 +80,14 @@ For bug reports, follow the provided template.
 
 ## Development
 
-To set up your environment to develop this theme, clone this repo, then run `bundle install`. To test the theme, run `bundle exec jekyll --incremental` and open your browser at `http://localhost:4000`. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+To set up your environment to develop this theme, clone this repo, then run `bundle install`. To test the theme, run `bundle exec jekyll serve --incremental` and open your browser at `http://localhost:4000`. Add pages, documents, data, etc. like normal to test the theme's contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+run `bundle exec jekyll serve --incremental`
+run `bundle exec jekyll serve --incremental --drafts`
+
+run `bundle install`
+run `bundle info --path minima`
+
 
 ## License
 

@@ -1,0 +1,62 @@
+---
+layout: page
+title: Page Not Found
+---
+<section class="bg-light page-section" id="{{ site.data.sitetext.portfolio.section | default: portfolio }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Portfolio & Blog</h2>
+          <h3 class="section-subheading text-muted">Voici les liens vers nos différentes pages</h3>
+        </div>
+      </div>
+    </div>
+    
+    <h3>Sommaire</h3>
+    <ul>
+      <li><a href="/charte">Charte de l'association</a></li>
+      <li><a href="/associations">Annuaire des associations & des initiatives locales</a></li>
+    </ul>
+  
+    <h3>TEST: Génération du sommaire des articles</h3>
+    {% assign sorted_articles = site.posts | sort: 'date' | reverse %}
+    <ul>
+      {% for post in sorted_articles %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> : {{ post.subtitle }} ({{ post.date }})
+      </li>
+      {% endfor %}
+    </ul>
+  
+    <h3>TEST: Article mis en avant (le dernier)</h3>
+    {% for post in site.posts limit:1 %}
+    <a href="{{ post.url }}">{{ post.title }}</a> : {{ post.subtitle }} ({{ post.date }})
+    {% endfor %}
+  
+    <h3>TEST: Autres articles (à part celui mis en avant)</h3>
+    {% for post in site.posts offset:1 limit:2 %}
+    <a href="{{ post.url }}">{{ post.title }}</a> : {{ post.subtitle }} ({{ post.date }})
+    {% endfor %}
+  
+    <h3>TEST: Liste des TAGS et des articles associés</h3>
+    {% for tag in site.tags %}
+      <h6>{{ tag[0] }}</h6>
+      <ul>
+        {% for post in tag[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  
+    <h3>TEST: Liste des CATEGORIES et des articles associés</h3>
+    {% for categorie in site.categories %}
+      <h6>{{ categorie[0] }}</h6>
+      <ul>
+        {% for post in categorie[1] %}
+          <li><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date_to_french }} t)</a></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  
+  
+</section>
