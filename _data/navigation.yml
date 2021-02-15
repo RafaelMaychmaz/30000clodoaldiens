@@ -17,6 +17,6 @@ nav:
   - title: "Mairie"
     url: https://www.saintcloud.fr
 
-youtube_width: 380 # original youtube width = 560 (OK for desktop but too big for smartphone)
-youtube_height: 214 # original youtube width = 315
+youtube_width: 360 #version 1 du site : 380 # original youtube width = 560 (OK for desktop but too big for smartphone)
+youtube_height: 203 # version 1 du site : 214 # original youtube width = 315
 
