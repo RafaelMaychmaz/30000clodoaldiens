@@ -21,11 +21,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in vestibulum tu
 #### Titre 4
 Sed in magna non sem laoreet hendrerit sed a urna. Sed pretium id leo sit amet commodo. Proin luctus lacus mollis, pharetra dui et, rutrum nunc. Aenean nec metus dui. Praesent ac lorem sed ante rhoncus auctor quis et velit. Donec porta, felis eu porttitor consectetur, massa est maximus nisl, id pharetra ipsum eros non metus. Nulla aliquet consectetur tellus sit amet bibendum. Nullam sed sodales massa. Nullam rutrum, massa non posuere gravida, mauris nisl ultricies nisi, non dictum ex arcu sed erat. Aliquam volutpat libero at vulputate pulvinar. Fusce vel bibendum nunc, ut aliquet purus. Vivamus convallis pulvinar justo a auctor.
 
-IMAGE 1 
+#### Une image en pleine largeur
+
+Lorsque l'on écrit le code en Markdown, une balise **P** est ajoutée autour de la balige **IMG**. Si **P** possède dans son style une marge (ex: 10px) alors cela complique la tache pour obtenir une image sans marge. En effet, en tant qu'*inline element* (en terme de display), l'image est alors contenu dans un *block element* **P** qui lui impose sa propre marge (sauf si on applique une *position: 'absolute'*, mais cela pose d'autre souci).
+
+La solution la plus sympatique consiste à appliquer un style à la balise **P** contenant l'image. Pour ce faire, on utilise un **kramdown block** attribute afin d'indiquer la classe du **P** (que l'on stylise en CSS ensuite pour enlever la marge dans ce cas spécifique.).
 
 ![texte alternatif à l'image](/assets/placeholders/web_medium_600x600.jpg "Description de l info-bulle image")
+{: .imgContainer}
 
-IMAGE 2
+#### IMAGE 2
 
 <figure>
   <img class="scaled" src="/assets/placeholders/web_medium_500x500.jpg"
