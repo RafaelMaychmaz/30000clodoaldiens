@@ -25,30 +25,6 @@ Nous avons constaté que <span style="color:#de6262">**durant cette période de 
 
 Ces commerces qui participent de l'<span style="color: #9fcc9d;">**esprit village**</span> qui règne dans notre ville et à notre <span style="color: #9fcc9d;">**qualité de vie**</span> sont animés par des femmes et des hommes, aujourd'hui en première ligne, qu'il nous semble important de montrer.
 
-<p>CECI EST UN TEST DE PICTURE</p>
-
-<div class="rm_fullwidth">
-    <picture>
-        <source
-        srcset="/assets/placeholders/web_medium_600x600.jpg"
-        type="image/jpg"
-        media="all and (max-width:600px)"
-        />
-        <source
-        srcset="/assets/placeholders/web_large_1000x500.jpg"
-        type="image/jpg"
-        media="all and (min-width:601px) and (max-width:1200px)"
-        />
-        <source
-        srcset="/assets/placeholders/web_large_1600x900.jpg"
-        type="image/jpg"
-        media="all and (min-width:1021px)"
-        />
-        <!-- default image -->
-        <img src="/assets/placeholders/web_large_1000x500.jpg" alt="an image of the site" />
-    </picture>
-</div>
-
 De plus, jour après jour, un besoin émerge parmi les habitants d'entretenir le lien social et de voir des visages familiers de leur quartier pour se sentir moins isolé.
 
 A notre modeste niveau nous contribuons en réalisant quelques vidéos très courtes des commerçants ouverts pour les soutenir.

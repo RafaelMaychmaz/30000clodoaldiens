@@ -1,0 +1,220 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,700&family=Roboto:wght@400;500;700;900&family=Special+Elite&display=swap');
+
+/* ================================================
+H E A D I N G S
+================================================ */
+
+
+/* Heading : Global title of the page */
+h1 {
+    /*
+    display: block;
+    background: cadetblue; 
+    padding: 10px 20px;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    */
+
+    font-family: 'Special Elite', cursive;
+    font-weight: 600;
+    text-align: center;
+    margin: 1em 0 0.5em 0;	
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	padding: 15px;
+	color: #1b2c42;
+	background: rgba(255, 255, 255, 0.829)
+}
+
+h2, h3, h4 {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Classic title 1 */
+h2 {
+    /*
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;*/
+
+	font-weight: normal;
+	position: relative;
+	text-shadow: 0 -1px rgba(0,0,0,0.6);
+	font-size: 28px;
+	line-height: 40px;
+	background: #355681;
+	background: rgba(53,86,129, 0.8);
+	border: 1px solid #fff;
+	padding: 5px 15px;
+	color: white;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+}
+
+/* Classic title 2 */
+h3 {
+    /*
+    font-family: {{ page.header_font_name }}, {{ page.header_font_serif }};
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    */
+
+    font-weight: 600;
+
+	position: relative;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
+	font-size: 22px;
+	line-height: 40px;
+	color: #355681;
+	text-transform: uppercase;
+	border-bottom: 1px solid rgba(53,86,129, 0.3);
+}
+
+/* Classic title 3 : the smallest (3 levels is enought) */
+h4 {
+    /*
+    font-family: {{ page.header_font_name }}, {{ page.header_font_serif }};
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    */
+    
+	font-weight: 600;
+	position: relative;
+	font-size: 21px;
+	line-height: 20px;
+	color: #788699;
+}
+
+/* Image caption */
+figcaption, h5 {
+    margin-top: 1.30em;
+    margin-bottom: 1.67em;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: block;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: .83em;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* NOT USED */
+h6 {
+    color: crimson;
+    font-family: 'Lora', serif;
+    display: block;
+    font-size: 3.67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+/* Quote "une belle citation" */
+.paf {
+	font-family: 'Special Elite', cursive;
+	color: #3f3f5a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+blockquote {
+	font-weight: 100;
+	font-size: 2rem;
+	max-width: 600px;
+	line-height: 1.4;
+	position: relative;
+	margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
+	padding: .5rem;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #b1b5ca;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -5rem;
+	top: -2rem;
+}
+
+blockquote:after {
+	content: '”';
+	right: -5rem;
+	bottom: 1rem;
+}
+
+cite {
+	line-height: 3;
+	text-align: left;
+}
+
+/* Standard text */
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    text-align: justify;    
+}
+
+/* I M A G E */
+img {
+    /* This code centers the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+img.scaled {
+width: 100%;
+}
+

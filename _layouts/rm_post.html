@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Boostrap url: https://getbootstrap.com/docs/versions/ -->
+  <!-- Boostrap v5.0.0-beta2 : CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Text encoding -->
+  <meta charset="utf-8">
+
+  <!-- CSS of 30000 Clodoaldiens -->
+  <link href="/assets/css/30000clodoaldiens.css" rel="stylesheet">
+
+  <!-- SEO (Search Engine Optimization) pour le referencement -->
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+
+  <!-- Overview (image + description) for social networks (Facebook, Telegram) -->
+  {% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.url }}/assets/img/header-bg.jpg" />
+  {% endif %}
+
+  {% if page.subtitle %}
+    <meta property="og:description" content="{{ page.subtitle }}" />
+  {% endif %}
+
+  <!-- Icon (favicon) of the web site -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- VIEWPORT-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <!-- Custom fonts from https://fonts.google.com :
+    * Title : Lora
+    * Corps : Roboto
+    Note: CSS rules to specify families :
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+
+
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <title>{% if page.title %}{{ page.title | append: " | " | append: site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Page container change top padding when nav shrinks -->
+  {% if page.layout == "page" %}
+  <style>
+    #pagecontainer {padding-top: 150px;}
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {padding-top: 100px;}
+    }
+  </style>
+  {% endif %}
+
+  <!-- Autres styles -->
+  <style>
+    @media screen and (max-width: 600px) {
+      .rm_fullwidth img {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          height: auto;
+      }
+    }
+    @media screen and (min-width: 601px) and (max-width: 1200px) {
+      .rm_fullwidth img {
+        width: 90%;
+        padding: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+      }
+    }
+    @media screen and (min-width: 1201px) {
+      .rm_fullwidth img {
+        width: 90%;
+        padding: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+      }
+    }
+  </style>
+
+
+
+</head>
+
+
+  <body id="page-top">
+
+    {{ content }}
+
+	  {% include footer.html %}
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="/assets/js/jquery.min.js"></script>
+	  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="/assets/js/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="/assets/js/jqBootstrapValidation.js"></script>
+	  <script src="/assets/js/contact_me.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="/assets/js/agency.min.js"></script>
+
+  </body>
+</html>
