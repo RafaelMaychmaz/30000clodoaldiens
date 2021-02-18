@@ -36,11 +36,13 @@ D'après les tests, c'est OK pour l'affichage.
 
 Une image de 1500x500 pour commencer.
 
-<img src="/assets/placeholders/web_large_1000x500.jpg" alt="Image large 1">
+![Image large 1](/assets/placeholders/web_large_1000x500.jpg "Description de l info-bulle image")
+{: .pContainerOfImage}
 
 Puis une image de 1600x900 pour voir ce que cela change.
 
-<img src="/assets/placeholders/web_large_1600x900.jpg" alt="Image large 2">
+![Image large 2](/assets/placeholders/web_large_1600x900.jpg "Description de l info-bulle image")
+{: .pContainerOfImage}
 
 #### Text + Une image flotante
 
