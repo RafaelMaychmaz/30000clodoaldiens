@@ -302,11 +302,10 @@ I M A G E
 F I G U R E
 ---------------------------------------------------------------------------*/
 
-/*
-figure {
+.figure_test {
     float: right;
 
-    width: 30%;
+    max-width: 30%;
     text-align: center;
     font-style: italic;
     font-size: smaller;
@@ -315,5 +314,3 @@ figure {
     margin: 0.5em 0.5em 0.5em 0.5em;
     padding: 0.5em 0em 0.5em 0em;
 }
-
-*/

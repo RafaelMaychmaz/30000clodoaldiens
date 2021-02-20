@@ -67,6 +67,17 @@ D'après les tests, c'est OK pour l'affichage.
 ## IMAGES FLOTTANTES
 Dans un contexte flottant, le texte à côté de l'image doit être important pour ne pas créer d'espace vide entre la fin du texte et le début du paragraphe suivante l'image. Il est même possiblede déborder si on le souhaite; donc il ne faut pas hésiter à faire du remplissage :)
 
+Le deuxième point important pour le cas des images flottantes est que pour avoir un text flow qui reprend normalement après, il faut reinitialiser le context. Cela ce fait en encapsulant l'image flottante et le texte qui va à coté par un **div** comme suit:
+
+{% highlight html %}
+<div class="clearfix">
+<img class="img_1_portait_floatright" src="ma_super_image.jpg" alt="Texte alternatif à mon image">
+<p>Mon super texte qui doit être assez volumineux et qui va à côté de l'image flottante</p>
+</div>
+{% endhighlight %}
+
+En effet le style CCS associé à cette classe de **div** permet de reprendre un text flow normal ensuite.
+
 ### Portrait
 
 #### A droite
@@ -264,28 +275,25 @@ Maecenas mattis interdum lacus, non ornare ex pellentesque ac. Mauris consequat 
 
 <p>CECI EST UN TEST DE PICTURE</p>
 
-<!--
-<div class="rm_fullwidth">
-    <picture>
-        <source
-        srcset="/assets/placeholders/web_medium_600x600.jpg"
-        type="image/jpg"
-        media="all and (max-width:600px)"
-        />
-        <source
-        srcset="/assets/placeholders/web_large_1000x500.jpg"
-        type="image/jpg"
-        media="all and (min-width:601px) and (max-width:1200px)"
-        />
-        <source
-        srcset="/assets/placeholders/web_landscape_3.jpg"
-        type="image/jpg"
-        media="all and (min-width:1021px)"
-        />
-      
-        <img src="/assets/placeholders/web_large_1000x500.jpg" alt="an image of the site" />
-    </picture>
-</div>
 
--->
+<picture>
+    <source
+    srcset="/assets/placeholders/web_medium_600x600.jpg"
+    type="image/jpg"
+    media="all and (max-width:600px)"
+    />
+    <source
+    srcset="/assets/placeholders/web_large_1000x500.jpg"
+    type="image/jpg"
+    media="all and (min-width:601px) and (max-width:1200px)"
+    />
+    <source
+    srcset="/assets/placeholders/web_landscape_3.jpg"
+    type="image/jpg"
+    media="all and (min-width:1021px)"
+    />
+    <!-- default image -->
+    <img src="/assets/placeholders/web_large_1000x500.jpg" alt="an image of the site" class="img_1_centered"/>
+</picture>
+
 
