@@ -287,8 +287,13 @@ I M A G E
     max-height: 300px; /* to limit dimensions for big screens */
 }
 
+/*===========================================================================
+F I G U R E
+---------------------------------------------------------------------------*/
+
 figure {
-    float: right;
+    /*float: right;*/
+    
     width: 30%;
     text-align: center;
     font-style: italic;
