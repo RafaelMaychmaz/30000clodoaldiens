@@ -1,8 +1,18 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,700&family=Roboto:wght@400;500;700;900&family=Special+Elite&display=swap');
 
-/*
-top, right, bottom, left */
+/* Note: clockwise styling => top, right, bottom, left */
+
+/* ================================================
+MAIN VIEWPORT
+================================================ */
+
+.main {
+    margin-left: auto;
+    margin-right:auto;
+    /*max-width: 1140px;*/
+    max-width: 900px;
+}
 
 /* ================================================
 H E A D I N G S
@@ -11,18 +21,6 @@ H E A D I N G S
 
 /* Heading : Global title of the page */
 h1 {
-    /*
-    display: block;
-    background: cadetblue; 
-    padding: 10px 20px;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    */
-
     font-family: 'Special Elite', cursive;
     font-weight: 600;
     text-align: center;
@@ -43,15 +41,6 @@ h2, h3, h4 {
 
 /* Classic title 1 */
 h2 {
-    /*
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;*/
-
 	font-weight: normal;
 	position: relative;
 	text-shadow: 0 -1px rgba(0,0,0,0.6);
@@ -68,17 +57,6 @@ h2 {
 
 /* Classic title 2 */
 h3 {
-    /*
-    font-family: {{ page.header_font_name }}, {{ page.header_font_serif }};
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    */
-
     font-weight: 600;
 
 	position: relative;
@@ -92,17 +70,6 @@ h3 {
 
 /* Classic title 3 : the smallest (3 levels is enought) */
 h4 {
-    /*
-    font-family: {{ page.header_font_name }}, {{ page.header_font_serif }};
-    display: block;
-    font-size: 1em;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    */
-    
 	font-weight: 600;
 	position: relative;
 	font-size: 21px;
@@ -198,19 +165,33 @@ p:not(.pContainerOfImage) {
     margin-right: 10px;
     font-family: 'Lora', serif;
     font-weight: 400;
-    text-align: justify;    
+    font-size: medium;
+    text-align: justify;
 }
 
 /*===========================================================================
 I M A G E
 ---------------------------------------------------------------------------*/
+/*
+- IMPORTANT: images size shall be bigger (or equal) to specified:
+    => downscale is OK.
+    => this CSS does not upscale image.
+- FORMAT SUPPORTED width x height
+    => SQUARE : 1/1
+    => PORTRAIT : 2/3, 5/7, 8.5/11 (plus proche du carré)
+    => LANDSCAPE : 16/9, 16/10, 4/3 (plus proche du carré)
+- 1 image centrée (Carrée ou max height = 600px)
+- 1 image flotante (à gauche ou à droite) avec max-width= 33% ou 50%, max height=600px
+- 1 image en mode portait avec ratio 2/3
+
+*/
 @media screen and (max-width: 600px) {
     .pContainerOfImage {
         margin-left: 0px;
         margin-right: 0px;
     }
 
-    img {
+    .img_1_centered {
         /* This displays image in full width */
         display: block;
         width: 100%;
@@ -227,7 +208,7 @@ I M A G E
         width: 100%;
     }
 
-    img {
+    .img_1_centered {
         /* This code centers the image */
         margin-left: auto; 
         margin-right: auto;
@@ -235,6 +216,39 @@ I M A G E
         max-width: 90%;
         max-height: 600px;
     }
+}
+
+.img_1_floatright_portrait {
+    /* This displays image and text side by side
+    Ideal size is with ratio 2/3 (ex:1000x1500)
+     */
+    float: right;
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    max-width: 50%; /* to limit dimensions for small screens */
+    max-height: 360px;  /* to limit dimensions for big screens */
+}
+
+.img_1_floatright_landscape {
+    /* This displays image and text side by side
+    Ideal size is with ratio 16/9 (ex:1920x1080)
+     */
+    float: right;
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    max-width: 66%;  /* to limit dimensions for small screens */
+    max-height: 300px; /* to limit dimensions for big screens */
+}
+
+.clearfix::after {
+    /* After use of floating element (ex: image), text flow shall be cleared */
+    content: "";
+    clear: both;
+    display: table;
 }
 
 figure {
