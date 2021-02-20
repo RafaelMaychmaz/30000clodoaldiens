@@ -219,12 +219,25 @@ Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod or
 Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
 </div>
 
-#### Text + Une image flotante
+## FIGURE
+Ce § explore les possibilités pour les images imbriquée dans un <tagcode>figure</tagcode>
 
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+
+## Text + Une image flotante
+
+{% highlight html %}
 <figure>
   <img src="/assets/placeholders/web_medium_500x500.jpg" alt="Deuxieme image">
   <figcaption>Un placeholder Medium 500 x 500</figcaption>
 </figure>
+{% endhighlight %}
+
 
 Praesent et arcu ac nunc fermentum ultrices. Aliquam eget odio ac tortor imperdiet consequat. Sed purus lorem, semper at auctor id, ullamcorper eu elit. Fusce sed aliquet ante, at tristique arcu. Nulla maximus elementum metus, ac tempor tellus rhoncus in. Sed lacinia accumsan lacinia. In non tortor consequat, placerat felis aliquet, faucibus arcu.
 
@@ -251,6 +264,7 @@ Maecenas mattis interdum lacus, non ornare ex pellentesque ac. Mauris consequat 
 
 <p>CECI EST UN TEST DE PICTURE</p>
 
+<!--
 <div class="rm_fullwidth">
     <picture>
         <source
@@ -264,12 +278,14 @@ Maecenas mattis interdum lacus, non ornare ex pellentesque ac. Mauris consequat 
         media="all and (min-width:601px) and (max-width:1200px)"
         />
         <source
-        srcset="/assets/placeholders/web_large_1600x900.jpg"
+        srcset="/assets/placeholders/web_landscape_3.jpg"
         type="image/jpg"
         media="all and (min-width:1021px)"
         />
-        <!-- default image -->
+      
         <img src="/assets/placeholders/web_large_1000x500.jpg" alt="an image of the site" />
     </picture>
 </div>
+
+-->
 

@@ -24,6 +24,17 @@ MAIN VIEWPORT
 }
 
 /* ================================================
+C O D E   H I G H L I G H T I N G
+================================================ */
+
+tagcode {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid #C1C1C1;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+/* ================================================
 H E A D I N G S
 ================================================ */
 
@@ -291,9 +302,10 @@ I M A G E
 F I G U R E
 ---------------------------------------------------------------------------*/
 
+/*
 figure {
-    /*float: right;*/
-    
+    float: right;
+
     width: 30%;
     text-align: center;
     font-style: italic;
@@ -304,3 +316,4 @@ figure {
     padding: 0.5em 0em 0.5em 0em;
 }
 
+*/
