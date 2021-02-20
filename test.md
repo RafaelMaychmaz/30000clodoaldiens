@@ -72,7 +72,7 @@ Dans un contexte flottant, le texte à côté de l'image doit être important po
 #### A droite
 
 <div class="clearfix">
-<img class="img_1_floatright_portrait" src="/assets/placeholders/web_portrait_1.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_portait_floatright" src="/assets/placeholders/web_portrait_1.jpg" alt="Image flottante à droite de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -82,7 +82,7 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 </div>
 
 <div class="clearfix">
-<img class="img_1_floatright_portrait" src="/assets/placeholders/web_portrait_2.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_portait_floatright" src="/assets/placeholders/web_portrait_2.jpg" alt="Image flottante à droite de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -92,7 +92,7 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 </div>
 
 <div class="clearfix">
-<img class="img_1_floatright_portrait" src="/assets/placeholders/web_portrait_3.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_portait_floatright" src="/assets/placeholders/web_portrait_3.jpg" alt="Image flottante à droite de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -102,7 +102,49 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 </div>
 
 <div class="clearfix">
-<img class="img_1_floatright_portrait" src="/assets/placeholders/web_portrait_4.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_portait_floatright" src="/assets/placeholders/web_portrait_4.jpg" alt="Image flottante à droite de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+#### A gauche
+
+<div class="clearfix">
+<img class="img_1_portait_floatleft" src="/assets/placeholders/web_portrait_1.jpg" alt="Image flottante à gauche de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+<div class="clearfix">
+<img class="img_1_portait_floatleft" src="/assets/placeholders/web_portrait_2.jpg" alt="Image flottante à gauche de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+<div class="clearfix">
+<img class="img_1_portait_floatleft" src="/assets/placeholders/web_portrait_3.jpg" alt="Image flottante à gauche de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+<div class="clearfix">
+<img class="img_1_portait_floatleft" src="/assets/placeholders/web_portrait_4.jpg" alt="Image flottante à gauche de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -116,7 +158,7 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 #### A droite
 
 <div class="clearfix">
-<img class="img_1_floatright_landscape" src="/assets/placeholders/web_landscape_1.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_landscape_floatright" src="/assets/placeholders/web_landscape_1.jpg" alt="Image flottante à droite de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -126,7 +168,7 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 </div>
 
 <div class="clearfix">
-<img class="img_1_floatright_landscape" src="/assets/placeholders/web_landscape_2.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_landscape_floatright" src="/assets/placeholders/web_landscape_2.jpg" alt="Image flottante à droite de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">
@@ -136,7 +178,39 @@ Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin
 </div>
 
 <div class="clearfix">
-<img class="img_1_floatright_landscape" src="/assets/placeholders/web_landscape_3.jpg" alt="Image flottante à droite de 50%">
+<img class="img_1_landscape_floatright" src="/assets/placeholders/web_landscape_3.jpg" alt="Image flottante à droite de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+#### A gauche
+
+<div class="clearfix">
+<img class="img_1_landscape_floatleft" src="/assets/placeholders/web_landscape_1.jpg" alt="Image flottante à gauche de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+<div class="clearfix">
+<img class="img_1_landscape_floatleft" src="/assets/placeholders/web_landscape_2.jpg" alt="Image flottante à gauche de 50%">
+<p style="color:lightgray;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
+<p style="color:lightgray;">
+Nulla facilisi. Maecenas ligula leo, accumsan non ipsum ac, fringilla euismod orci. Morbi luctus purus eget leo ultrices, non ultricies justo venenatis. Donec a urna sit amet justo fermentum condimentum eget sed tortor. Vestibulum ipsum risus, pulvinar et ex eget, tristique placerat nulla. Integer porttitor lobortis posuere. Morbi lobortis mattis tortor. Aenean auctor sit amet leo gravida pellentesque. Donec tortor lacus, dictum eu purus eu, laoreet bibendum enim.</p>
+<p style="color:lightgray;">
+Vivamus ut rhoncus sapien, et consectetur mi. Integer at dignissim sapien. Proin viverra leo sit amet urna varius condimentum. Curabitur dignissim accumsan pulvinar. Sed accumsan a nisi in porta. Proin tincidunt massa mi. Curabitur accumsan, nunc mollis venenatis tempor, neque lorem sollicitudin sapien, vel fringilla libero felis ac dui. Etiam et vestibulum odio.</p>
+</div>
+
+<div class="clearfix">
+<img class="img_1_landscape_floatleft" src="/assets/placeholders/web_landscape_3.jpg" alt="Image flottante à gauche de 50%">
 <p style="color:lightgray;">
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel orci pulvinar, iaculis purus non, vehicula quam. Suspendisse suscipit vulputate accumsan. Etiam ac turpis iaculis, faucibus magna sodales, malesuada metus. Vestibulum auctor libero orci, a vulputate quam consequat sit amet. Mauris pretium, eros et finibus faucibus, tellus mi imperdiet arcu, non iaculis lacus arcu at magna. Curabitur sed purus lobortis, interdum mi feugiat, semper dolor. In mi massa, tempus vel cursus a, varius at quam. Suspendisse a mauris at ex semper fermentum ut eget ex. Cras id odio egestas, efficitur leo eu, tincidunt dui. Pellentesque ut sapien feugiat, lacinia est efficitur, egestas erat. Suspendisse vestibulum lectus nec fringilla porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean maximus, lectus at interdum congue, libero nunc auctor tortor, at facilisis nunc quam et lacus.</p>
 <p style="color:lightgray;">

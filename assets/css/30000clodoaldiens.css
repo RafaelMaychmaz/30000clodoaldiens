@@ -126,7 +126,7 @@ h6 {
 blockquote {
 	font-weight: 100;
 	font-size: 2rem;
-	max-width: 600px;
+	max-width: 500px;
 	line-height: 1.4;
 	position: relative;
 	margin-top: 0;
@@ -147,13 +147,13 @@ blockquote:after {
 
 blockquote:before {
 	content: '“';
-	left: -5rem;
+	left: -4rem;
 	top: -2rem;
 }
 
 blockquote:after {
 	content: '”';
-	right: -5rem;
+	right: -4rem;
 	bottom: 1rem;
 }
 
@@ -187,11 +187,9 @@ I M A G E
     => this CSS does not upscale image.
 - FORMAT SUPPORTED width x height
     => SQUARE : 1/1
-    => PORTRAIT : 2/3, 5/7, 8.5/11 (plus proche du carré)
-    => LANDSCAPE : 16/9, 16/10, 4/3 (plus proche du carré)
-- 1 image centrée (Carrée ou max height = 600px)
-- 1 image flotante (à gauche ou à droite) avec max-width= 33% ou 50%, max height=600px
-- 1 image en mode portait avec ratio 2/3
+    => PORTRAIT : 2/3, 5/7 and 8.5/11 the closest to square shape
+    => LANDSCAPE : 16/9, 16/10 and 4/3 the closest to square shape
+- Floating images (left/right) + side text (cf: .clearfix comments)
 
 */
 @media screen and (max-width: 600px) {
@@ -227,7 +225,17 @@ I M A G E
     }
 }
 
-.img_1_floatright_portrait {
+.clearfix::after {
+    /* After use of floating element (ex: image), text flow must be cleared
+    Thus floating elements (ex: image + side text) must be wrapped with <div class="clearfix">...</div>
+    */
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.img_1_portait_floatright {
     /* This displays image and text side by side
     Ideal size is with ratio 2/3 (ex:1000x1500)
      */
@@ -240,7 +248,20 @@ I M A G E
     max-height: 360px;  /* to limit dimensions for big screens */
 }
 
-.img_1_floatright_landscape {
+.img_1_portait_floatleft {
+    /* This displays image and text side by side
+    Ideal size is with ratio 2/3 (ex:1000x1500)
+     */
+    float: left;
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    max-width: 50%; /* to limit dimensions for small screens */
+    max-height: 360px;  /* to limit dimensions for big screens */
+}
+
+.img_1_landscape_floatright {
     /* This displays image and text side by side
     Ideal size is with ratio 16/9 (ex:1920x1080)
      */
@@ -253,11 +274,17 @@ I M A G E
     max-height: 300px; /* to limit dimensions for big screens */
 }
 
-.clearfix::after {
-    /* After use of floating element (ex: image), text flow shall be cleared */
-    content: "";
-    clear: both;
-    display: table;
+.img_1_landscape_floatleft {
+    /* This displays image and text side by side
+    Ideal size is with ratio 16/9 (ex:1920x1080)
+     */
+    float: left;
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+    margin-right: 3%;
+    max-width: 66%;  /* to limit dimensions for small screens */
+    max-height: 300px; /* to limit dimensions for big screens */
 }
 
 figure {
